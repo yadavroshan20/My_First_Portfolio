@@ -1,0 +1,288 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Contact | Roshan Kumar Yadav</title>
+
+    <meta name="description" content="Contact Roshan Kumar Yadav for software development opportunities, internships and collaboration.">
+    <meta name="author" content="Roshan Kumar Yadav">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header class="header">
+    <nav class="navbar">
+        <a href="index.html" class="logo">
+            <span class="logo-mark">RY</span>
+            <span>Roshan Kumar Yadav</span>
+        </a>
+
+        <ul class="nav-links">
+            <li><a href="Home.html">Home</a></li>
+            <li><a href="About.html">About</a></li>
+            <li><a href="Home.html#skills">Skills</a></li>
+            <li><a href="Project.html">Projects</a></li>
+            <li><a href="Services.html">Services</a></li>
+            <li><a href="Education.html">Education</a></li>
+            <li><a href="Contact.html" class="active">Contact</a></li>
+        </ul>
+
+        <a href="Contact.html" class="connect-btn">
+            Let's Connect
+            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+        </a>
+
+        <button class="menu-btn" id="menuBtn" aria-label="Open navigation">
+            <i class="fa-solid fa-bars"></i>
+        </button>
+    </nav>
+</header>
+
+<main class="page">
+
+    <section class="page-header">
+        <span class="small-title">Let's Connect</span>
+        <h1>Let's Build Something <span>Together</span></h1>
+        <p>
+            Looking for an internship, entry-level opportunity,
+            collaboration or a chance to work on an interesting project?
+            I'd be happy to connect.
+        </p>
+    </section>
+
+    <section class="contact-container">
+
+        <div class="contact-info">
+            <h2>Get In Touch</h2>
+            <p>
+                Feel free to reach out through email, phone or social platforms.
+                I usually respond as soon as possible.
+            </p>
+
+            <div class="contact-item">
+                <div class="contact-icon">
+                    <i class="fa-solid fa-envelope"></i>
+                </div>
+                <div>
+                    <span>Email</span>
+                    <a href="mailto:YOUR_EMAIL@gmail.com">
+                        roshanyadav2029@gmail.com
+                    </a>
+                </div>
+            </div>
+
+            <div class="contact-item">
+                <div class="contact-icon">
+                    <i class="fa-solid fa-phone"></i>
+                </div>
+                <div>
+                    <span>Phone</span>
+                    <a href="tel:+9779819730002">
+                        +977 9819730002
+                    </a>
+                </div>
+            </div>
+
+            <div class="contact-item">
+                <div class="contact-icon">
+                    <i class="fa-solid fa-location-dot"></i>
+                </div>
+                <div>
+                    <span>Location</span>
+                    <strong>Nepal</strong>
+                </div>
+            </div>
+
+            <div class="availability">
+                <span class="status-dot"></span>
+                Open to internships, entry-level roles and development opportunities.
+            </div>
+
+            <div class="social-title">Find Me Online</div>
+
+            <div class="socials">
+                
+              <a href="https://github.com/roshanyadav620" target="_blank" rel="noopener" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/roshan-yadav-a3161a28b/" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+            </div>
+        </div>
+
+        <div class="contact-form-box">
+            <h2>Send Me a Message</h2>
+            <p>Tell me a little about yourself and what you'd like to discuss.</p>
+
+            <form id="contactForm">
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="name">Your Name</label>
+                        <input type="text" id="name"
+                               placeholder="Enter your name" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email"
+                               placeholder="Enter your email" required>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="subject">I'm Interested In</label>
+                    <select id="subject" required>
+                        <option value="">Select an option</option>
+                        <option value="Internship Opportunity">Internship Opportunity</option>
+                        <option value="Job Opportunity">Job Opportunity</option>
+                        <option value="Project Collaboration">Project Collaboration</option>
+                        <option value="Freelance Work">Freelance Work</option>
+                        <option value="Something Else">Something Else</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message"
+                              placeholder="Tell me about the opportunity or project..."
+                              required></textarea>
+                </div>
+
+                <button type="submit" class="primary-btn">
+                    <i class="fa-regular fa-paper-plane"></i>
+                    Send Message
+                </button>
+
+                <div class="form-message" id="formMessage">
+                    Your email app should open with the message ready to send.
+                </div>
+            </form>
+        </div>
+
+    </section>
+
+    <section class="recruiter-box">
+        <div>
+            <h2>Recruiter or Hiring Manager?</h2>
+            <p>
+                Download my resume to quickly review my education,
+                technical skills and projects.
+            </p>
+        </div>
+
+        <a href="resume.pdf" class="secondary-btn" download>
+            <i class="fa-solid fa-download"></i>
+            Download Resume
+        </a>
+    </section>
+
+</main>
+
+<footer class="footer">
+    <div class="footer-container">
+
+        <div class="footer-brand">
+            <div class="footer-logo">
+                <span class="logo-mark">RY</span>
+                <h2>Roshan Kumar Yadav</h2>
+            </div>
+
+            <p>
+                Java Full Stack Developer passionate about building
+                useful applications and solving real-world problems.
+            </p>
+
+            <div class="socials">
+                <a href="https://github.com/roshanyadav620" target="_blank" rel="noopener" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/roshan-yadav-a3161a28b/" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+            </div>
+        </div>
+
+        <div class="footer-links">
+            <h3>Quick Links</h3>
+            <a href="Home.html">Home</a>
+            <a href="About.html">About</a>
+            <a href="Project.html">Projects</a>
+            <a href="services.html">Services</a>
+            <a href="Education.html">Education</a>
+            <a href="Contact.html">Contact</a>
+        </div>
+
+        <div class="footer-contact">
+            <h3>Contact Me</h3>
+            <p>
+                <i class="fa-solid fa-envelope"></i>
+                roshanyadav2029@gmail.com
+            </p>
+            <p>
+                <i class="fa-solid fa-phone"></i>
+                +977 9819730002
+            </p>
+            <p>
+                <i class="fa-solid fa-location-dot"></i>
+                Nepal
+            </p>
+        </div>
+
+    </div>
+
+    <div class="footer-bottom">
+        <p>&copy; 2026 Roshan Kumar Yadav. All Rights Reserved.</p>
+        
+    </div>
+</footer>
+
+<script>
+    const menuBtn = document.getElementById("menuBtn");
+    const navLinks = document.querySelector(".nav-links");
+
+    menuBtn.addEventListener("click", () => {
+        navLinks.classList.toggle("show");
+    });
+
+    document.querySelectorAll(".nav-links a").forEach(link => {
+        link.addEventListener("click", () => {
+            navLinks.classList.remove("show");
+        });
+    });
+
+    // Contact form: opens a ready-to-send email draft.
+    const contactForm = document.getElementById("contactForm");
+    const formMessage = document.getElementById("formMessage");
+
+    contactForm.addEventListener("submit", function (event) {
+        event.preventDefault();
+
+        const name = document.getElementById("name").value.trim();
+        const email = document.getElementById("email").value.trim();
+        const subject = document.getElementById("subject").value;
+        const message = document.getElementById("message").value.trim();
+
+        if (!name || !email || !subject || !message) return;
+
+        const mailSubject = encodeURIComponent(
+            subject + " | Portfolio Contact"
+        );
+
+        const mailBody = encodeURIComponent(
+            "Name: " + name +
+            "\nEmail: " + email +
+            "\n\nMessage:\n" + message
+        );
+
+        window.location.href =
+            "mailto:YOUR_EMAIL@gmail.com?subject=" +
+            mailSubject + "&body=" + mailBody;
+
+        formMessage.classList.add("show");
+    });
+</script>
+
+</body>
+</html>
